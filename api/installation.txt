@@ -1,0 +1,14 @@
+
+# instala dependências
+sudo apt-get install php7.2-cli
+sudo apt-get install php7.2-zip
+sudo apt-get install php7.2-mbstring
+sudo apt-get install php7.2-xml
+sudo apt-get install php7.2-gd
+sudo apt-get install php7.2-sqlite3
+sudo apt-get install php7.2-mysql
+
+# cd /diretorio-do-projeto
+composer install
+php artisan migrate
+php artisan db:seed
